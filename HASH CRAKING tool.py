@@ -1,3 +1,4 @@
+#Note: The current password list is small and intended for demo purposes. A larger, more powerful wordlist will be added in future updates.
 import hashlib
 hash = input("enter a hash -> ")
 passwords = ["admin","1234567890","123456","root","msfadmin","0987654321","098765","543210","112233","qazxcvbnm"]
