@@ -4,7 +4,7 @@ Dumping_hash =input("enter a hashes:-")
 clue_required = input("The hash u pasted here taken from  windows yes/no:--- ")
 def Crack(Dumping_hash):
     found = False
-    with open('/usr/share/wordlists/rockyou.txt','r', errors="ignore") as file:
+    with open('Replace here with your own wordlist','r', errors="ignore") as file:
         for password in file:
             passwords = password.strip()
             if len(Dumping_hash) == 32:
